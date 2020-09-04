@@ -4,6 +4,7 @@ The project is an image classification application that identifies different spe
 ![alt text](https://github.com/yunglinchang/TensorFlow_image_classifier/blob/master/assets/inference_example.png?raw=true)
 
 ##Data Science Pipeline
+
 The contributing model consists of the following process:
 1. data visualization with Matplotlib
 2. Create pipeline to preprocess image data 
