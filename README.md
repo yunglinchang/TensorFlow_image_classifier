@@ -1,5 +1,20 @@
 # TensorFlow Flower Image Classifier
-The project is an image classification application that identifies different species of flowers based on a deep learning model trained with TensorFlow. The app uses an image as an input and outputs the flower class and the probability for that class.
+![alt text](https://github.com/yunglinchang/TensorFlow_image_classifier/blob/master/assets/Flowers.png?raw=true)
+The project is an image classification application that identifies different species of flowers based on a deep learning model trained with TensorFlow. It is based on the [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), which contains 102 common flower categories in the UK. The classifier is developed into an command line app, where users can insert an image and get the flower class of the image and the probability for that class. (as shown below)
+![alt text](https://github.com/yunglinchang/TensorFlow_image_classifier/blob/master/assets/inference_example.png?raw=true)
+
+##Data Science Pipeline
+The contributing model consists of the following process:
+1. data visualization with Matplotlib
+2. Create pipeline to preprocess image data 
+3. build and train the TensorFlow classifier (attach existing model from [Feature vectors of images with MobileNet V2 trained on ImageNet](https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4) to current tensors)
+4. save model in Keras format as "trained_model.h5"
+5. load model as command line application
+
+Code files:
+* Project_Image_Classifier_Project.ipynb
+* predict.py
+* workspace_utils.py
 
 ## Python Packages Used
 * PIL 
