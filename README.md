@@ -3,8 +3,7 @@
 The project is an image classification application that identifies different species of flowers based on a deep learning model trained with TensorFlow. It is based on the [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), which contains 102 common flower categories in the UK. The classifier is developed into an command line app, where users can insert an image and get the flower class of the image and the probability for that class. (as shown below)
 ![alt text](https://github.com/yunglinchang/TensorFlow_image_classifier/blob/master/assets/inference_example.png?raw=true)
 
-##Data Science Pipeline
-
+## Data Science Pipeline
 The contributing model consists of the following process:
 1. data visualization with Matplotlib
 2. Create pipeline to preprocess image data 
